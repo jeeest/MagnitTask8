@@ -16,10 +16,8 @@ function NewPrice(prodList) {
     return prodList;
 }
 
-newProductList=NewPrice(productList);
+let newProductList=NewPrice(productList);
 console.log('\nNew price:')
 for (key in newProductList){
 	console.log(key+': '+newProductList[key]);
 }
-
-
